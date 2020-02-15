@@ -1,0 +1,766 @@
+@charset "utf-8";
+body{font-family:Montserrat,sans-serif; cursor:default; font-size:14px}
+input, textarea, select{font-family:Montserrat,sans-serif;}
+*{padding:0;margin:0;box-sizing:border-box}
+img{max-width:100%;display:block}
+.check{width:3%;float:left;color:#fff;padding-top:20px;display:none}
+.bgneil_color{background-color:#c0d1ff;width:100%;float:left}
+.container_fluid{width:100%;float:left}
+.container{width:100%;max-width:1200px;margin:0 auto}
+.cont{width:100%;max-width:1100px;margin:0 auto}
+.tigrinya{position:relative;box-shadow:0 0 20px rgba(0,0,0,.6);z-index:999}
+.logo{padding-bottom:10px;width:100%;float:left}
+.logo_left{width:24%;float:left}
+.logo_right{float:right;padding-top:24px}
+.logo_right>ul>li{list-style-type:none; padding-left:15px;float:left}
+.lock_image{float:left;width:25px;padding-top:0;margin-right:10px}
+.lock_text{font-size:18px;padding-top:0;font-weight:600; float:left}
+.lock_text>a{text-decoration:none;color: #06258d;}
+.banner_absulute{position:relative}
+.banner_relative{position:absolute;bottom:58px}
+.abc{position:relative;width:820px;float:left}
+.xyz{position:relative;width:150px;float:left;margin-left:70px}
+.language{position:absolute;top:0;right:0}
+.word_phase{width:850px;background-color:#fff;padding:10px;border-radius:40px;height:65px;border:2px #ccc solid;float:left}
+.word_phase2{width:200px;background-color:#fff;padding:10px;border-radius:40px;height:65px;border:2px #ccc solid;float:left}
+.phase{height:100%;border:none;font-size:24px;padding-left:20px;width:100%}
+.search_icon{width:70px;float:right}
+.dropbtn{background-color:#4caf50;color:#fff;padding:16px;font-size:16px;border:none}
+.arow_swap{width:60%; float:left}
+.arow_swap img{max-height:50px; display:block; margin:0 auto}
+.explore_bgcolor{background-color:#eef1f5;padding-bottom:70px;padding-top:30px}
+.explore{padding-top:30px}
+.explore>h2{text-align:center;padding-bottom:40px;font-size:30px;position:relative}
+.explore>h2:before{content:'';position:absolute;bottom:0;left:50%;width:200px;height:5px;background-color:#011e6f;margin-left:-100px;margin-bottom:30px}
+.explore>ul>li{width:20%;float:left;list-style-type:none;padding-left:8px;padding-right:8px}
+.explore>ul>li>h4{width:100%;text-align:center;font-size:18px;padding-top:10px;background-color:#fff;padding-bottom:10px}
+.blog{padding-top:30px}
+.blog>h2{text-align:center;padding-bottom:30px;font-size:30px}
+.blog_left{width:34%;float:left;position:relative}
+.blog_left>h4{background-color:rgba(222,224,220,.7);text-decoration:none;color:#000;padding:8px;font-weight:500;font-size:16px;z-index:20;position:absolute;width:100%;bottom:0;left:0}
+.blog_right{width:64%;float:right}
+.blog_right_top{position:relative}
+.blog_right_top>h4{position:absolute;width:100%;bottom:0;left:0;background-color:rgba(222,224,220,.7);text-decoration:none;color:#000;padding:8px;font-weight:500;font-size:16px;z-index:20}
+.blog_right_bottom{padding-top:35px}
+.blog_bottom_left{width:48%;float:left;position:relative}
+.blog_bottom_left>h4{position:absolute;width:100%;bottom:0;left:0;background-color:rgba(222,224,220,.7);text-decoration:none;color:#000;padding:8px;font-weight:500;font-size:16px;z-index:20}
+.blog_bottom_right{width:48%;float:right;position:relative}
+.blog_bottom_right>h4{position:absolute;width:100%;bottom:0;left:0;background-color:rgba(222,224,220,.7);text-decoration:none;color:#000;padding:8px;font-weight:500;font-size:16px;z-index:20}
+.word{padding-top:50px;padding-bottom:75px}
+.blog>h2,.recent>h2{text-align:center;padding-bottom:40px;font-size:30px;position:relative}
+.blog>h2:before,.recent>h2:before{content:'';position:absolute;bottom:0;left:50%;width:100px;height:5px;background-color:#011e6f;margin-left:-50px;margin-bottom:30px}
+.butn{font-size:16px;padding:8px 10px 8px 10px;background-color:#eef;color:#3a99d1;font-weight:500;margin-bottom:10px;margin-right:10px;border:none}
+.butn:hover{background-color:#152c74; color:#ffffff; cursor:pointer}
+.about_left{width:50%;float:left}
+.about_right{width:50%;float:right}
+.about_right>h2{padding-left:20px;padding-bottom:20px;font-size:30px;padding-top:50px;position:relative;padding-bottom:40px}
+.about_right>h2:before{content:'';position:absolute;bottom:0;width:100px;height:5px;background-color:#011e6f;margin-bottom:30px}
+.about_right>p{padding-left:20px;padding-right:100px;font-weight:500;line-height:1.8;font-size:16px;padding-top: 50px}
+.abouut>h2 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 30px;
+    position: relative;
+}
+.abouut>h2:before {content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100px;
+    height: 5px;
+    background-color: #011e6f;
+    margin-left: -50px;
+margin-bottom: 30px;}
+.abouut {
+    padding-top: 50px;
+}
+.about_leftside{width:50%;float:right}
+.about_rightside{width:50%;float:left}
+.about_rightside>h2{padding-left:20px;padding-bottom:20px;font-size:30px;padding-top:50px;position:relative;padding-bottom:40px}
+.about_rightside>h2:before{content:'';position:absolute;bottom:0;width:100px;height:5px;background-color:#011e6f;margin-bottom:30px}
+.about_rightside>p{padding-left:20px;padding-right:100px;font-weight:500;line-height:1.8;font-size:16px;padding-top: 50px}
+.dictonary{padding-bottom:60px}
+.word>h2{text-align:center;padding-bottom:40px;font-size:30px;position:relative}
+.word>h2:before{content:'';position:absolute;bottom:0;left:50%;width:200px;height:5px;background-color:#011e6f;margin-left:-100px;margin-bottom:30px}
+.browse>p:hover{background-color:#011e6f;color:#fff}
+.browse>p{font-size:30px;width:60px;height:60px;background-color:#ccc;border-radius:30px;text-align:center;padding-top:11px;font-weight:700}
+.say{margin-bottom:80px}
+.test{background-color:#eef1f5;width:100%;float:left;height:400px}
+.testimonl{font-size:30px;text-align:center;margin-top:60px;font-weight:800;padding-bottom:30px}
+.testimonl{width:100%;float:left;position:relative;padding-bottom:40px}
+.testimonl:before{content:'';position:absolute;bottom:0;left:50%;width:200px;height:5px;background-color:#011e6f;margin-left:-100px;margin-bottom:30px}
+.testimonial_text{width:100%;float:left}
+.testimonial_image{width:100%;float:left}
+.testimonial_image>img{border-radius:50%;width:30%}
+.testimonial_text{padding-left:30px;line-height:1.5;padding-top:30px;padding-right:20px;width:100%;float:left;height:200px}
+.testimonial_text>h4{text-align:center}
+.testimonial_text>h5{color:#999;font-weight:500;padding-top:4px}
+.testimonial_text>p{font-size:12px;font-weight:400;padding-left:10px;padding-top:20px}
+.testimonial_star{width:100%;float:left;text-align:center}
+.testimonial_star>ul>li{list-style-type:none;display:inline-block}
+.butttn{width:100%;float:left;text-align:center;margin-top:50px}
+.review_btn{background-color:#011e6f;color:#fff;padding:10px 60px 10px 60px;border-radius:18px;font-size:22px}
+.owl-carousel3 .item{margin:20px}
+.owl-carousel3 .owl-item{float:left;width:100%}
+.owl-carousel3,.owl-wrapper-outer{position:relative;width:100%;overflow:hidden}
+.owl-carousel3 .owl-buttons div:before{text-indent:0;font-size:26px;position:absolute;top:22px;color:#241d6d;cursor:pointer}
+.owl-carousel3 .owl-prev{position:absolute;top:50%;left:0;line-height:1;text-decoration:none;z-index:99;text-indent:-9999px;cursor:pointer;background-color:rgba(255,255,255,.9);width:40px;height:70px;margin-top:-35px}
+.owl-carousel3 .owl-prev:before{content:"<";left:13px;font-weight:400}
+.owl-carousel3 .owl-next{position:absolute;top:50%;right:0;line-height:1;text-decoration:none;z-index:99;text-indent:-9999px;cursor:pointer;background-color:rgba(255,255,255,.9);width:40px;height:70px;margin-top:-35px;border-radius:2px}
+.owl-carousel3 .owl-next:before{content:">";right:13px}
+.owl-carousel2 .owl-prev:hover:before,.owl-carousel3 .owl-next:hover:before{color:#000}
+.owl-carousel3 .owl-item img{display:block;margin:0 auto;margin-top:20px}
+.owl-carousel3 .owl-pagination{display:none}
+.owl-carousel3 .owl-pagination .owl-page{display:inline-block;width:12px;height:12px;background-color:rgba(255,255,255,.3);border-radius:8px;margin:0 4px;cursor:pointer}
+.owl-carousel3 .owl-pagination .owl-page.active{border:#fff 2px solid;background:0 0}
+.owl-carousel3 .owl-pagination{position:absolute;bottom:111px;left:0;width:100%}
+.owl-carousel3 .owl-item .item{position:relative}
+.bottom_links{width:25%;float:left}
+.footer_block{background-color:#011e6f;color:#fff;padding-top:40px;padding-bottom:40px}
+.bottom_links h2,.social_links h2{padding-bottom:22px;font-size:20px}
+.bottom_links ul li{list-style-type:none;padding:7px 0;font-size:14px}
+.bottom_links ul li a{color:#f9f9f9;text-decoration:none}
+.bottom_links ul li a:hover{color:#c0d1ff}
+.social_links>p{padding-top:36px;font-size:14px;float:right}
+.owl-carousel4 .item{margin:20px}
+.owl-carousel4 .owl-item{float:left;width:100%}
+.owl-carousel4,.owl-wrapper-outer{position:relative;width:100%;overflow:hidden}
+.owl-carousel4 .owl-buttons div:before{text-indent:0;font-size:26px;position:absolute;top:22px;color:#241d6d;cursor:pointer}
+.owl-carousel4 .owl-prev{position:absolute;top:50%;left:0;line-height:1;text-decoration:none;z-index:99;text-indent:-9999px;cursor:pointer;background-color:rgba(255,255,255,.9);width:40px;height:70px;margin-top:-35px}
+.owl-carousel4 .owl-prev:before{content:"<";left:13px;font-weight:400}
+.owl-carousel4 .owl-next{position:absolute;top:50%;right:0;line-height:1;text-decoration:none;z-index:99;text-indent:-9999px;cursor:pointer;background-color:rgba(255,255,255,.9);width:40px;height:70px;margin-top:-35px;border-radius:2px}
+.owl-carousel4 .owl-next:before{content:">";right:13px}
+.owl-carousel2 .owl-prev:hover:before,.owl-carousel4 .owl-next:hover:before{color:#000}
+.owl-carousel4 .owl-item img{display:block;margin:0 auto;margin-top:20px}
+.owl-carousel4 .owl-pagination{display:none}
+.owl-carousel4 .owl-pagination .owl-page{display:inline-block;width:12px;height:12px;background-color:rgba(255,255,255,.3);border-radius:8px;margin:0 4px;cursor:pointer}
+.owl-carousel4 .owl-pagination .owl-page.active{border:#fff 2px solid;background:0 0}
+.owl-carousel4 .owl-pagination{position:absolute;bottom:111px;left:0;width:100%}
+.owl-carousel4 .owl-item .item{position:relative}
+.purchase_tigriniya{margin-top:50px;margin-bottom:50px}
+.purchase>h2:before{content:'';position:absolute;bottom:0;left:50%;width:100px;height:5px;background-color:#011e6f;margin-left:-50px}
+.purchase>h2{text-align:center;padding-bottom:12px;font-size:30px;position:relative}
+.purchase>ul>li{width:23%;display:block;list-style-type:none;margin-right:23px;margin-top:20px;float:left}
+.boooook{width:100%;float:left;margin-bottom:30px;background-image: url(../images/bgimagee.jpg);background-size: cover;}
+.book_bgimage{position:relative;box-shadow:0 0 20px rgba(0,0,0,.2)}
+.book_image{margin-right: auto;
+    width: 70%;
+    margin-left: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;}
+.book1{width:100%;float:left;margin-bottom:30px;background-image: url(../images/bgimage.jpg);background-size: cover;}
+.cart{float:right;width:70px;margin-top:-5px}
+.lov{float:right;margin-top:-5px}
+.author>h5{padding-top:4px;font-size:16px}
+.author>h6{font-size:20px;padding-top:10px;font-weight:500}
+.blue{color:#152c74}
+.cards>ul>li{list-style-type:none;display:inline-block;width:18%}
+.icons>ul>li{list-style-type:none;display:inline-block;width:16%}
+.heart{float:right;font-size:20px}
+.keyword_text{font-size:20px;padding-top:15px;padding-bottom:15px;width:100%;border-radius:30px; height:59px;border-color:#000;border:none;float:left;padding-left:24px;font-weight:700}
+.keyword_searching{padding-top:15px;padding-bottom:15px;width:100%;font-size:24px;border:none;color:#fff;background-color:#052686;border-radius:30px;float:right;font-weight:700}
+.keyword_phase{position:relative;margin-top:-10px}
+.keyword_right_phase{position:absolute;width:20%;right:0}
+.top_menu{background-image:linear-gradient(#052686,#02144a);color:#fff; text-align:center}
+.top_menu>ul>li{display:inline-block;list-style-type:none;padding:15px 0 15px 0;font-size:16px;font-weight:600;margin-right:5px;margin-left:5px}
+.top_menu>ul>li>a{color:#fff;text-decoration:none;padding:15px 20px}
+.top_menu>ul>li>a:hover{color:#ccc;background-color:#000}
+.menu_top{background-image:linear-gradient(#052686,#02144a);color:#fff;display:none}
+.menu_top>ul>li{display:inline-block;list-style-type:none;padding:15px 0 15px 0;font-size:22px;font-weight:600;margin-right:15px;margin-left:51px}
+.menu_top>ul>li>a{color:#fff;text-decoration:none;padding:15px 10px 15px 10px}
+.menu_top>ul>li>a:hover{color:#ccc;background-color:#000}
+.norse{width:50%;float:left; background-image:url(../images/book_bg.png);background-repeat: no-repeat;}
+.norse_bgimage{position:relative}
+.norse_image{     margin-right: auto;width: 50%;margin-left: auto;padding-top: 41px;padding-bottom:60px}
+.txt_margin{margin-top:50px;margin-bottom:50px}
+.bg_blue{background-color:#c0d1ff}
+.norse_mythology h3{font-size:40px;font-weight:500}
+.abouttheauthor { padding-top: 25px;}
+.about_the_book_text{float:right;width:70%}
+.adress_block{color:#000;padding-top:40px;padding-bottom:60px}
+.adress_links{width:25%;float:left}
+.homee{margin-top:60px}
+.home_phase{width:100%;margin-top:-13px;border-radius:36px;background-color:#052686;height:65px;border:2px #ccc solid;float:left}
+.home_search{height:100%;border:none;font-size:24px;border-radius:40px;width:80%;float:left;padding-left:10px}
+.home_buttom{height:100%;border:none;font-size:24px;padding-left:50px;color:#fff;background-color:#052686}
+.browser>a{font-size:30px;width:60px;height:60px;background-color:#ffffff;border-radius:30px;text-align:center; cursor:pointer;padding-top:11px;font-weight:700;float:left;margin-right:20px}
+.browser>a:hover{background-color:#011e6f;color:#fff}
+.dictonarryy>img{padding-left:20px;float:left;padding-right:20px; max-height:90px}
+.dictonarryy>h2{font-size:33px;padding-top:20px}
+.ducth{margin-top:20px}
+
+.copyright{width:100%;float:left;text-align:center;padding-top:30px}
+.adress_Publisher>h2:after{content:'';position:absolute;bottom:85;left:28%;width:751px;height:1px;background-color:#999;margin-left:-100px;margin-bottom:30px;top:-50px}
+.adress_links>ul>li{list-style-type:none;padding-top:10px;font-size:14px}
+.adress_Publisher>h2{margin-bottom:30px;position:relative}
+.bookstore_footer_block{background-color:#c0d1ff;color:#000;padding-top:40px;padding-bottom:40px}
+.bookstore_bottom_links{width:25%;float:left}
+.bookstore_bottom_links ul li{list-style-type:none;padding:7px 0;font-size:16px;font-weight:500}
+.bookstore_bottom_links ul li a{color:#000;text-decoration:none}
+.bookstore_bottom_links ul li a:hover{color:#9a052f}
+.bookstore_copyright{width:100%;float:left;padding-top:30px; text-align:center; color:#777}
+.bookstore_bottom_right{float:right;width:25%}
+.bookstore_bottom_right>ul>li{list-style-type:none;width:100%;float:left;height:90px}
+.delivery_image{width:50%;float:left}
+.delivery_text{padding-top:28px}
+.delivery_text>h4{text-transform:uppercase;font-size:18px}
+.delivery_text>p{font-size:14px}
+.about_the_book_text>h3{padding-bottom:20px;position:relative}
+.about_the_book_text>h3:after{content:'';position:absolute;bottom:85;left:0;width:751px;height:1px;background-color:#999;margin-left:-100px;margin-bottom:30px;top:-50px}
+.about_the_book_text>p{font-size:16px;line-height:1.7}
+.about_the_book_text{padding:20px}
+.we_accept{padding-top:25px;font-size:22px; font-weight:600;padding-bottom: 20px;}
+.shoe{margin-top:0px}
+.shoe>p{padding-top:30px}
+.shoe>p>span{font-size:22px;font-weight:500}
+.shoe>h3{padding-top:30px;font-size:32px;border-bottom:2px #8692b2 solid;padding-bottom:20px}
+.shoe>h5{padding-top:30px;font-size:22px}
+.shoe>h6>span{margin-left:27px}
+.shoe>ul{font-size:18px;color:#052686;margin-top:20px;font-weight:600}
+.shoe>ul>li{list-style-type:none;display:inline-block;margin-right:30px}
+.shoe>ul>li>a{text-decoration:none}
+.reversee{width:6%;float:left;margin-left: 18%;}
+.txt_margin{margin-top:50px}
+.bg_blue{background-color:#c0d1ff}
+.norse_mythology{float:right;width:45%;margin-left:50px;padding-top:45px}
+.norse_mythology p{font-size:28px;font-weight:600;margin:10px 0}
+.norse_mythology p span{font-size:22px;color:#666;font-weight:400}
+.norse_mythology h4{font-size:60px;font-weight:400}
+.btn_1{padding:5px;width:80px;text-align:center;border-radius:30px;background-color:#fff;box-shadow:0 3px 5px rgba(0,0,0,.4);margin:10px 0}
+.stock_check{width:31%;margin:20px 0}
+.stock_check img{float:left;margin-top:7px}
+.stock_check p{float:right;color:#6ec64e}
+.days{clear:both;font-size:18px;margin-left:10%}
+.add_cart{background-color:#011e6f;float:left;width:60%;border-radius:45px;margin-top:8%}
+.add_cart img{float:left}
+.add_cart p{color:#fff;margin:15px 25px 0 0;font-weight:350}
+.about_the_book_image{width:20%;float:left;padding-top:50px}
+.about_the_book_text{float:right;width:75%;padding-top:70px;padding-bottom:70px}
+.adress_links{width:25%;float:left}
+.user_reviews{text-align:center}
+.user_reviews h3{margin:4% 0;color:#545454;font-size:26px}
+.user_reviews p{font-size:26px;font-weight:700}
+.user_reviews span{font-size:26px;font-weight:400}
+.user_reviews img{margin:0 auto;margin-top:5%;margin-bottom:5%}
+.newsletter_bg{background-color:#021f6f;color:#fff}
+.newsletter>ul>li{list-style-type: none;}
+.newsletter_email{width:100%;padding:15px;border-radius:39px;font-size:18px;border:none}
+
+.news_email {
+    width: 30%;
+    float: left;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+.newsletter_image {
+    width: 12%;
+    margin-top: -30px;
+    float: left;
+}
+.news_subscribe {
+    width: 25%;
+    float: left;padding-top: 30px;padding-left: 15px;
+}
+.news_subscribe h2 {
+    font-size: 18px;
+}
+.news_subscribe p {
+    padding-top: 4px;
+    font-size: 16px;
+}
+.newsletter_subscribe{padding:15px;border-radius:39px;background-color:#fff;font-weight:700;font-size:14px;border:none;width:100%;color:#000;text-align:center}
+::placeholder{color:#000;opacity:.5}
+:-ms-input-placeholder{color:#000;opacity:.5}
+::-ms-input-placeholder{color:#000;opacity:.5}
+
+.corner_left{width:8%;float:left}
+.coner_right{width:92%;float:right}
+.corner_star{margin-top:42px;margin-bottom:60px}
+.corner_star>i{color:#011e6f;font-size:40px}
+.bookstore_bottom_links>h2{margin-bottom:30px;font-size:22px; font-weight:600; text-transform:capitalize}
+.owl-carousel5 .item{margin:20px}
+.owl-carousel5 .owl-item{float:left;width:100%}
+.owl-carousel5,.owl-wrapper-outer{position:relative;width:100%;overflow:hidden}
+.owl-carousel5 .owl-buttons div:before{text-indent:0;font-size:26px;position:absolute;top:22px;color:#241d6d;cursor:pointer}
+.owl-carousel5 .owl-prev{position:absolute;top:40%;left:0;line-height:1;text-decoration:none;z-index:99;text-indent:-9999px;cursor:pointer;background-color:rgba(255,255,255,.9);width:40px;height:70px;margin-top:-35px}
+.owl-carousel5 .owl-prev:before{content:"<";left:13px;font-weight:400}
+.owl-carousel5 .owl-next{position:absolute;top:40%;right:0;line-height:1;text-decoration:none;z-index:99;text-indent:-9999px;cursor:pointer;background-color:rgba(255,255,255,.9);width:40px;height:70px;margin-top:-35px;border-radius:2px}
+.owl-carousel5 .owl-next:before{content:">";right:13px}
+.owl-carousel2 .owl-prev:hover:before,.owl-carousel5 .owl-next:hover:before{color:#000}
+.owl-carousel5 .owl-item img{display:block;margin:0 auto;margin-top:20px}
+.owl-carousel5 .owl-pagination{display:none}
+.owl-carousel5 .owl-pagination .owl-page{display:inline-block;width:12px;height:12px;background-color:rgba(255,255,255,.3);border-radius:8px;margin:0 4px;cursor:pointer}
+.owl-carousel5 .owl-pagination .owl-page.active{border:#fff 2px solid;background:0 0}
+.owl-carousel5 .owl-pagination{position:absolute;bottom:111px;left:0;width:100%}
+.owl-carousel5 .owl-item .item{position:relative}
+
+.neil>ul>li{width:31%;display:block;list-style-type:none;margin-right:25px;float:left; margin-right:3%}
+.neil > ul > li:nth-child(3n) {margin-right:0px}
+.neil_image{margin-right: auto;
+    width: 60%;
+    margin-left: auto;
+    padding-top: 41px;
+    padding-bottom: 48px;}
+.Showmore_btn{background-color:#e7e9ed;color:#3a3a3b;padding:10px 60px 10px 60px;border-radius:18px;font-size:22px;border:none;text-align:center}
+.show_butttn{width:100%;float:left;text-align:center;margin-bottom:80px}
+.neil_tigriniya{margin-top:50px;margin-bottom:50px}
+.neil>ul{padding-bottom:50px;padding-top:20px}
+.fiction{font-weight: 500;background-color:#fff;color:#3a3a3b;padding:10px 31px 10px 10px;border-radius:18px;font-size:16px;margin-right:20px;-webkit-appearance:none;border:none;background-image:url(../images/arrow.jpg);background-repeat:no-repeat;background-position:right}
+.fic{padding-top:40px}
+.fiction_blue{font-weight: 500;background-color:#011e6f;-webkit-appearance:none;border:none;color:#fff;padding:10px 34px 10px 24px;border-radius:18px;font-size:16px;float:right}
+.fic>h5{font-size:18px;margin-bottom:30px;color:#011e6f}
+.fic>span{font-size:12px;padding-left:6px;font-weight: 500;}
+.filter{color:#fff;background-color:#011e6f;padding: 10px 13px 8px 13px!important;border-radius:50%;font-size:18px!important;margin-right:18px}
+.filter_btn{background-color:#011e6f;border:none;color:#fff;padding:10px 34px 10px 24px;font-size:18px;display:none}
+.boldword{font-weight:700}
+.cross_icon{margin-bottom:50px;background-color:#dce2e3;width:108px;padding:12px;border-radius:24px}
+.cross_icon>i{padding-left:10px;font-size:19px;color:#656868}
+.author{clear:both}
+.off{float:right;position:relative;z-index:999;width:47px;height:47px;border-radius:37px;background-color:#011e6f;color:#fff;top:17px;line-height:47px;text-align:center}
+.off>h7{background-color:#011e6f;color:#fff;font-size:16px;text-align:center;vertical-align:middle}
+.english_languagee1 {
+      
+        width: 20%;
+        float: left;
+    }
+    
+    .english_languagee2 {
+        
+        width: 20%;
+        float: right;
+    }
+    
+    
+    .dropdown {
+       
+        display: inline-block;
+        width:100%;
+         max-width:290px; position:relative;
+        border-radius: 27px; background:url(../images/arrow.jpg) no-repeat right center  #ffffff;
+    }
+     .dropdown select{padding:15px; border:none; -webkit-appearance:none; background:none; width:100%; padding-left:67px}
+    .dropdown span{position:absolute; left:0; top:0}
+	.dropdown span img{max-height:48px}
+    .country_namee {
+     padding-top: 20px;
+    float: left;
+        font-size: 20px;
+        color: #000000 !important;
+        font-weight: 500;
+    }
+    
+    .dropdown-content {
+        display: none;
+       
+        background-color: #ffffff;
+        z-index: 1;
+       width:100%;
+        border-radius: 27px;
+    }
+     .dropdown-content>a {
+    width: 100%;
+    float: left;text-decoration: none;
+}
+    .dropdown-content>a>img {
+        width: 88px;float: left;
+    }
+    
+   
+    
+	.dutchtop{padding-bottom:20px}
+	.cartt{width:100%; float:left;margin-top: 30px;}
+	.cart_add{width:50%; float:left;background-color: #011e6f;color:#fff;border-radius:25px;}
+	.cart_add>a>i{padding:17px;font-size:20px;    margin-left: 10px;color:#fff;}
+	.cart_add>a>span{font-size:20px;color:#fff;}
+	.cart_add>a { text-decoration: none;}
+	.add_fav>a>i{padding:17px;background-color:#ebebeb;border-radius:25px;font-size:20px}
+.add_fav{float:right;width:47%}
+.contr {
+  position: relative;
+}
+.mySlides {
+  display: none;
+  margin-right: auto;
+    width: 50%;
+    margin-left: auto;
+    padding-top: 41px;
+    padding-bottom: 60px;
+}
+.cursor {
+  cursor: pointer;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+.roow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.colu {
+  float: left;
+  width: 20%; margin-right:10px
+}
+.demo {
+  opacity: 0.6;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+@media(min-width:960px) and (max-width:1024px){
+	
+   	.container{padding-left:10px; padding-right:10px}
+}
+@media(max-width:960px) and (min-width:767px){
+	.purchase > ul > li {
+    width: 22%;
+    margin-right: 20px}
+	.news_subscribe {
+    width: 32%}
+	.news_email {
+    width: 27%;}
+	.news_subscribe h2 {
+    font-size: 16px;
+}.news_subscribe p {
+    padding-top: 2px;
+    font-size: 14px;
+}.newsletter_bg {
+    padding-bottom: 20px;
+}
+	.fiction {
+    font-weight: 500;
+    background-color: #fff;
+color: #3a3a3b;
+    padding: 10px 37px 10px 0px;
+   font-size: 12px;
+    margin-right: 5px;
+    -webkit-appearance: none;
+    border: none;
+    background-image: url(../images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+   	.container{padding-left:10px; padding-right:10px}
+	.norse {
+    width: 45%;
+    float: left;}
+	.norse_mythology {
+    float: right;
+    width: 50%;
+    margin-left: 20px;padding-top: 10px;}
+	.stock_check {
+    width: 50%;}
+	.add_fav {
+    float: right;
+    width: 41%;
+}
+.cart_add {
+width: 52%;}
+.about_the_book_text > h3::after{display:none}
+.adress_Publisher > h2::after {display:none}
+.top_menu > ul > li {
+font-size: 12px}
+.top_menu > ul > li > a {
+    padding: 0px 0px;
+}
+.about_right > p {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    font-size: 10px;
+    padding-top: 15px;
+}
+.about_rightside > p{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    font-size: 10px;
+    padding-top: 15px;
+}
+.bookstore_bottom_links > h2 {
+    margin-bottom: 30px;
+font-size: 18px;}
+.we_accept {
+    padding-top: 25px;
+font-size: 18px;}
+.delivery_text > h4 {
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.delivery_text {
+    padding-top: 17px;
+}
+}
+
+@media(min-width:1280px)
+}
+@media(max-width:1024px){
+	.top_menu > ul > li{margin:0}
+	.top_menu > ul > li > a{padding:15px 16px}
+	.logo_left{width:33%}
+	.logo_right{padding-top:18px; padding-right:10px}
+	.top_menu > ul > li{font-size:15px}
+	.container{padding-left:10px; padding-right:10px}
+	.word .cont{text-align:center}
+	.top_menu{text-align:center}
+	.bookstore_bottom_links{width:33%}
+	.bookstore_bottom_right{width:100%}
+	.neil>ul>li {width: 30%;}
+	.norse {width: 46%;float: left;background-image: url(../images/book_bg.png); background-size: cover}
+.norse_image { margin-right: auto; width: 65%; margin-left: auto;padding-top: 41px;padding-bottom: 64px;}
+.norse_mythology h3 {font-size: 36px;}
+.norse_mythology p {font-size: 25px;}
+.stock_check {width: 45%;}
+.norse_mythology {padding-top: 18px;}
+.cart_add {
+width: 60%;}
+.add_fav {
+    float: right;
+    width: 35%;
+}
+.coner_right{width:100%;float:left}
+.user_reviews span{font-size:18px;font-weight:400}
+.corner_left{display:none}
+.purchase > ul > li {width: 21%;margin-right: 28px;}
+.neil_tigriniya {margin-top: 10px;}
+.fiction {padding: 10px 31px 10px 10px;font-size: 14px; margin: 2px;}
+.filter {margin-right: 8px;}
+.fic > span { padding-left: 12px;}
+.fiction_blue {padding: 10px 22px 10px 20px;}
+.about_the_book_text>h3::after{ display:none}
+.adress_Publisher>h2:after{ display:none}
+}
+
+@media(max-width:767px){
+	.keyword_right_phase{position:relative; padding-top:15px; width:100%}
+	.cart_add {
+    width: 65%;}
+	.add_fav {
+    padding-top: 0px;width: 35%;}
+.about_the_book_text {padding-bottom: 10px;}
+.about_the_book_text > p {font-size: 14px;}
+.about_the_book_text > h3 { font-size: 20px;}
+.logo_left{width:70%;float:left;padding-left:0px;padding-right:0px}
+.logo_right>ul>li{padding-left:10px}
+.logo_right{ float:right;padding-top:20px;padding-bottom:12px; padding-right:0}
+.logo_right>ul{padding-left:0}
+.lock_text{display:none}
+.explore>ul>li{width:50%;float:left;list-style-type:none}
+.purchase>ul>li{width:100%;display:inline-block;list-style-type:none;margin-right:0;margin-top:20px;margin-left:0px}
+.book_image{align:middle;width:70%;align-content:center}
+.about_left{width:100%;float:left}
+.about_right{width:100%;float:left}
+.about_leftside {
+    width: 100%;
+    float: right;
+}
+.about_rightside {
+    width: 100%;
+    float: left;
+}
+.about_rightside > p {
+padding: 20px 10px 20px 10px;
+    font-weight: 400;
+    line-height: 1.8;
+    font-size: 10px;
+  
+}
+.abouut {
+    padding-top: 20px;
+}
+.about_right>h2{font-size:24px;padding-top:50px}
+.about_right>p{padding: 20px 10px 20px 10px;font-size: 10px;
+font-weight: 400;}
+.bottom_links{width:100%;float:left;padding-left:20px}
+.blog_left{width:100%;float:left}
+.blog_right{width:100%;float:right}
+.banner_relative{position:relative;bottom:0;margin-top:30px}
+.abc{position:relative;width:380px;float:left}
+.word_phase{width:380px}
+.phase{font-size:18px;padding-left:10px;width:100%}
+.browser{padding-left:30px}
+.browser>p{margin-bottom:20px}
+.recent{padding-left:10px;padding-top:50px}
+.recent>h2,.word>h2{font-size:26px}
+.home_search{width:100%}
+.home_buttom{margin-top:20px;width:100%;float:left;border-radius:40px;text-align:center;padding-left:0}
+.norse{width:100%;float:left;background-size: cover;}
+.norse_mythology{width:100%;padding:10px;margin:0;text-align:center}
+.about_the_book_image{width:75%;margin-left:17%}
+.about_the_book_text{width:100%}
+.adress_Publisher>h2:after{width:351px}
+.adress_links{width:100%;float:left}
+.bookstore_copyright{ padding:10px; font-size:12px}
+.bookstore_bottom_links{width:100%;float:left;padding-left:0px}
+.bookstore_bottom_right{float:right;width:100%}
+.newsletter>ul>li{vertical-align:middle;margin-right:0;margin-bottom:20px}
+
+.txt_margin{margin-top:30px;font-size:14px;padding-left:20px}
+
+.stock_check{width:42%;margin-left:auto;margin-right:auto}
+.stock_check img{float:left;margin-top:8px;width:21%}
+.norse_mythology p{font-size:20px}
+.norse_mythology h4{font-size:39px;font-weight:400}
+.fic{padding-top:20px;padding-left:10px;padding-right:10px}
+.cross_icon{margin-left:20px}
+.sort{display:none}
+.fiction{background-color:#fff;color:#3a3a3b;padding:12px 0 10px 10px;border-radius:0;font-size:16px;margin-right:14px;-webkit-appearance:none;border:none;margin-bottom:0;width:100%;border-bottom:1px #ccc solid}
+.neil>p{margin-left:10px}
+.filter{display:none}
+.fiction_blue{padding:10px 29px 10px 10px;width:100%;border-radius:0;margin-top:20px}
+
+.neil>ul>li{width:100%;display:inline-block;list-style-type:none;margin-top:20px}
+.neil>ul{padding-left:0px;padding-top:0}
+.neil_image{bottom:5%;left:14%;z-index:20;align:middle;align-content:center;width:68%}
+.fic>h5{display:none}
+.shoe{margin-top:0px;padding-left:10px;padding-right:10px}
+.about_the_book_text{padding-left:0px;padding-right:0px}
+.adress_Publisher{padding-left:10px}
+.btn_1{margin-left:auto;margin-right:auto;margin-top:10px}
+.coner_right{width:100%;float:right}
+.user_reviews span{font-size:14px;font-weight:400}
+.corner_left{width:0%}
+.newsletter_image{width:26%;margin-top:-30px}
+.newsletter>ul{padding-left:0px;padding-right:10px}
+
+.delivery_text > h4 { font-size: 16px;}
+.check{width:100%;float:left;padding-left:10px;padding-top:6px;display:block!important;margin-bottom:0;margin-top:0;background-color:#011e6f;margin-right:0;padding-bottom:8px}
+.check>ul>li{display:inline-block;vertical-align:middle}
+.check>ul>li>a{color:#fff;text-decoration:none}
+.check>ul>li>a>i{font-size:24px;padding-left:10px}
+.top_menu>ul>li{display:block;margin-left:0;margin-right:0;font-size:16px}
+.top_menu{display:none}
+.homee{margin-top:33px}
+.norse_mythology h3{font-size:26px}
+.neil>ul{padding-bottom:20px}
+.top_menu>ul>li:hover{background-color:#000}
+.cross_icon{margin-bottom:25px}
+.neil_tigriniya{margin-top:30px}
+.off>h7{font-size:14px}
+.keyword_text{font-size:16px; font-weight:400; text-transform:capitalize; border-radius:4px; height:120px; padding:10px}
+.dropdown span{display:none}
+.dropdown select{padding-left:15px; padding:12px}
+.ducth{margin-top:5px}
+.dropdown{border-radius:4px}
+.keyword_searching{border-radius:4px;}
+.keyword_right_phase{padding-top:5px; clear:both}
+.keyword_searching{font-size:16px}
+.bookstore_footer_menu{padding-bottom:10px}
+.bookstore_bottom_links>h2{margin-bottom:10px;font-size:22px}
+.we_accept{padding-bottom:12px}
+.Showmore_btn{padding:10px 36px 10px 36px;font-size:20px;text-align:center}
+.footer_menu{padding-bottom:10px}
+.bottom_links h2,.social_links h2{padding-bottom:10px}
+.about_the_book_text>h3::after{content:'';position:absolute;bottom:85;left:29%;height:1px;background-color:#999;margin-left:-100px;margin-bottom:30px;top:-50px; display:none}
+.menu_top>ul>li{display:block;margin-left:0;margin-right:0;font-size:16px}
+.menu_top>ul>li:hover{background-color:#000}
+.filter_btn{background-color:#011e6f;border:none;color:#fff;padding:10px 0 10px 15px;font-size:18px;display:block;width:100%;margin-bottom:0;text-align:left}
+.tigrinya{position:relative;box-shadow:0 0 0 rgba(0,0,0,.2);z-index:999;border-bottom:1px #ccc solid}
+.dictonarryy>img{display:none}
+.dictonarryy>h2{font-size:27px;padding-top:52px;display:none}
+.word{padding-top:0}
+.purchase_tigriniya {
+margin-top: 20px;}
+.shoe > p {
+    padding-top: 14px;
+    font-size: 13px;
+}
+.shoe > h3 {
+    padding-top: 10px;
+    font-size: 28px;
+    border-bottom: 2px #8692b2 solid;
+    padding-bottom: 10px;
+}
+.shoe > p > span {
+    font-size: 18px;
+    font-weight: 500;
+}
+.shoe > ul > li {
+    
+    margin-right: 10px;
+    font-size: 16px;
+}
+.bookstore_bottom_links ul li {padding: 5px 0;}
+.menu_left{margin-top:5px}
+.menu_right{float:right;margin-right:10px}
+.country_name{float:right;margin-top:-36px}
+.delivery_image{width:43%;float:left; max-width:135px}
+.delivery_text{padding-top:32px;width:40%;float:left}
+.bookstore_bottom_right>ul>li{list-style-type:none;width:100%;float:left;height:106px}
+.logo{padding-bottom:0px}
+ 
+.reversee{width:100%;float:left;padding-left:127px;margin-bottom:15px;display:none}
+.dictonary{padding-bottom:40px}
+.browser > a{margin-right:0}
+.browser{padding:10px; float:left}
+
+.logo_left img{max-height:52px}
+.butn{font-size:13px}
+.news_email {
+    width: 100%;
+    float: left;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+.news_subscribe h2 {
+    font-size: 16px;
+}
+.news_subscribe {
+width: 74%;padding-top: 18px;}
+.english_languagee1 {
+   
+    width: 40%;
+    float: left;
+}
+.arow_swap{width:20%; float:left}
+.english_languagee2 {
+   
+    width: 40%;
+    float: right;
+}
+.arow_swap img{ max-height:40px}
+.country_namee {
+   padding-top:15px;
+
+    font-size: 16px;
+    color: #000000 !important;
+    font-weight: 500;
+   
+}
+.dropdown > a > img {
+    width: 76px;
+} .dropdown-content>a>img {
+        width: 76px;
+    }
+	 	.container{padding-left:10px; padding-right:10px}
+}
